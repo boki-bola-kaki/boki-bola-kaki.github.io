@@ -1,0 +1,54 @@
+<!DOCYTPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="language" content="indonesia"> 
+	<meta http-equiv="content-type" content="text/html">
+	<meta name="author" content="Ahmad Farhan Sibghotalloh">
+	<meta name="designer" content="Ahmad Farhan Sibghotalloh">
+	<meta name="publisher" content="Ahmad Farhan Sibghotalloh">
+	<meta name="description" content="Informasi Seputar Info Sepak Bola.">
+	<meta name="keywords" content="Sepak bola,Info sepak bola">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="theme-color" content="#1b5e20">
+	<link rel="shortcut icon" type="image/png" href="img/icon-512.png"/>
+	<link rel="apple-touch-icon" href="img/icon-192.png">
+	<title>BOKI - Info Sepak Bola</title>
+	<link rel="stylesheet" href="css/materialize.min.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="manifest" href="/manifest.json">
+</head>
+<body>
+	<div id="loading" class="scale-transition">
+		<div class="row center loading-wrapper">
+			<div class="preloader-wrapper active loading-spinner">
+		    <div class="spinner-layer spinner-green-only">
+		      <div class="circle-clipper left">
+		        <div class="circle"></div>
+		      </div><div class="gap-patch">
+		        <div class="circle"></div>
+		      </div><div class="circle-clipper right">
+		        <div class="circle"></div>
+		      </div>
+		    </div>
+		  </div>
+		  <p class="loading-text">Memuat...</p>
+		</div>
+	</div>
+	<nav class="green darken-4" role="navigation">
+		<div class="nav-wrapper container">
+			<a href="#" onclick="loadPage('home'); getStandings();" class="brand-logo" id="logo-container">BOKI</a>
+			<a href="#" class="sidenav-trigger" data-target="nav-mobile"><i class="material-icons">menu</i></a>
+			<ul class="topnav right hide-on-med-and-down"></ul>
+			<ul class="sidenav" id="nav-mobile"></ul>
+		</div>
+	</nav>
+	<div class="container" id="body-content"></div>
+	<footer></footer>
+	<script src="js/materialize.min.js"></script>
+	<script src="js/idb.js"></script>
+	<script src="js/functions.js"></script>
+	<script src="js/api.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>

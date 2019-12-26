@@ -1,0 +1,90 @@
+/*load fonts*/
+@font-face {
+	font-family: 'Airbnb Cereal';
+	src: url('../fonts/AirbnbCereal-Book.ttf')  format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Airbnb Cereal';
+	src: url('../fonts/AirbnbCereal-Bold.ttf')  format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Material Icons';
+	src: url('../fonts/MaterialIcons-Regular.ttf') format('truetype');
+	font-style: normal;
+	font-weight: 400;
+}
+
+/*material icon*/
+.material-icons {
+	font-family: 'Material Icons';
+	font-weight: normal;
+	font-style: normal;
+	font-size: 24px;
+	display: inline-block;
+	line-height: 1;
+	text-transform: none;
+	letter-spacing: normal;
+	word-wrap: normal;
+	white-space: nowrap;
+	direction: ltr;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+	-moz-osx-font-smoothing: grayscale;
+	font-feature-settings: 'liga';
+}
+
+/*change default style*/
+html {
+	font-family: "Airbnb Cereal";
+}
+.card .card-title, .brand-logo {
+	font-weight: bold;
+}
+.card {
+	overflow: hidden;
+	border-radius: 10px;
+}
+.btn {
+	border-radius: 10px;
+}
+.card-title {
+	margin-bottom: 20px !important;
+}
+h1 {
+	font-size: 3.2rem;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-weight: bold;
+}
+
+/*very own style*/
+footer {
+	margin-top: 3rem;
+}
+.footer i {
+	font-size: 15px;
+}
+.row:first-child {
+	margin-top: 20px;
+}
+#loading {
+	display: block;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100;
+	width: 100vw;
+	height: 100vh;
+	background-color: white;
+}
+.loading-wrapper {
+	margin: 0 !important;
+	position: relative;
+	top: 50%;
+	-ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}

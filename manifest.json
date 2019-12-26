@@ -1,0 +1,22 @@
+{
+	"name": "BOKI - Bola Kaki",
+	"short_name": "BOKI",
+	"description": "Informasi Seputar Sepak Bola.",
+	"start_url": "/index.html",
+	"display": "standalone",
+	"background_color": "#ffffff",
+	"theme_color": "#1b5e20",
+	"icons": [
+		 {
+			"src": "/img/icon-192.png",
+			"type": "image/png",
+			"sizes": "192x192"
+		},
+		{
+			"src": "/img/icon-512.png",
+			"type": "image/png",
+			"sizes": "512x512"
+		}
+	],
+	"gcm_sender_id": "769226805395"
+}
